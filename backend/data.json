@@ -685,6 +685,7 @@
                     "torque_nm": 180
                 },
                 "transmission": "6-speed automatic",
+                "body_type": "Sedan",
                 "drive_type": "FWD",
                 "fuel_consumption_l_per_100km": 5.8,
                 "dimensions_mm": {
