@@ -20,7 +20,7 @@ function ChatBotWidget() {
         setInputUser('');
         let result = null
         try {
-            const response = await fetch("http://localhost:8000/chat", {
+            const response = await fetch("http://54.235.226.82:8000/chat", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
