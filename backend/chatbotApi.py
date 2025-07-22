@@ -17,6 +17,8 @@ Only respond with car specifications if the query explicitly mentions a known ca
 
 If the query is not related to cars (like greetings, thanks, etc.), respond briefly, respectfully, and in a friendly manner. Avoid introducing car-related information in such cases.
 
+Don't mention about any provided data in the response.
+
 When answering car-related questions, always provide the response using proper **Markdown formatting**:
 - Use headings (###) for model names or sections.
 - Use bullet points for listing features or specifications.
@@ -45,6 +47,19 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# code to load .txt files
+file_path = [
+    './chatbot_responses.txt'
+]
+
+def load_documents(files):
+    all_text = []
+    for file in files:
+        with open(file, 'r', encoding="utf-8-sig") as f:
+            content = f.read()
+            all_text.append(content) 
+    return "\n".join(all_text) 
+
 with open('data.json', 'r') as file:
     car_data = json.load(file)
 
@@ -55,11 +70,10 @@ def extract_model_name(user_input, car_data):
     return None
 
 
-def getMistralResponse(ques, context, data) :
-    context += " Do not mention any document in the response. and also mention in the response that ai based data can be incorrect."
-
-        
-    prompt = f"The following car specification data is available:\n{data}\n\nThis is user query: {ques}"
+def getMistralResponse(ques, context, data, ques_ans) :
+    context += " Do not mention any document or the provided data in the response to the user."
+    
+    prompt = f"The following car specification data is available:\n{data}\n and in case of any query from user refer the frequently asked question:\n{ques_ans} \n\nThis is user query: {ques}"
     
     # model_name = extract_model_name(ques, data)
 
@@ -95,7 +109,8 @@ async def chat_response(request: ChatRequest):
     question = request.input
     print("User Query: ", question)
     # print("Data: ", car_data)
-    response = getMistralResponse(question,context, car_data)    
+    docs = load_documents(file_path)
+    response = getMistralResponse(question,context, car_data, docs)    
     print("Response: ", response)
     return ChatResponse(response=response)
 
