@@ -38,8 +38,11 @@ A: Geely showrooms are located in Karachi (Shahrah-e-Faisal), Lahore (Gulberg), 
 Q: What are your business hours?
 A: Our showrooms are open from 9:00 AM to 6:00 PM, Monday to Saturday.
 Q: Can I visit your showroom on weekends?
-A: Yes, most of our showrooms are open on Saturdays. Some locations also offer limited hours on Sundays.
-Customer Support
+A: Yes, most of our showrooms are open on Saturdays. 
+Some locations also offer limited hours on Sundays.
+    Following are the locations that are opened from 11:00 am - 4 pm on Sunday.
+    Lahore (Gulberg)
+    Islamabad (I-9)
 Q: How can I contact customer support for help?
 A: You can reach us at 0800-GEELY or email support@geely.pk. Our support team is available from 9:00 AM to 9:00 PM.
 Q: What should I do if my car has a technical issue?
@@ -59,3 +62,19 @@ After-Sales Support
 A: Yes, Geely Pakistan offers 24/7 roadside assistance in major cities for warranty customers.
 Q: How do I register my vehicle for after-sales services?
 A: Your vehicle is automatically registered during purchase. You’ll receive a service booklet and digital registration confirmation.
+Q: What does the Geely warranty cover?
+A: It covers manufacturing defects in materials and workmanship for the basic vehicle, powertrain, battery (for EVs), corrosion, and vehicle software/electronics.
+Q: What’s included in the basic vehicle warranty?
+A: It includes most parts of the vehicle such as the body, chassis, interior features, and components with manufacturing defects under normal usage.
+Q: Are interior features like infotainment covered under warranty?
+A: Yes, onboard vehicle technology and infotainment systems are covered if they malfunction due to manufacturing defects.
+Q: What does the powertrain warranty cover?
+A: It covers major components like the engine, transmission, and drivetrain for 5 years or 150,000 km.
+Q: What is the warranty on Geely EV or hybrid batteries?
+A: Battery warranty covers 5 years or 150,000 km (model-dependent), including defects in the battery and related systems.
+Q:Is rust damage covered under warranty?
+A: Yes, if it’s caused by a manufacturing defect and not external damage or poor maintenance.
+Q: Are brake pads and wiper blades covered?
+A: No, they are considered wear and tear parts and are excluded from warranty.
+Q: Are oil changes and tire rotations covered?
+A: No, routine maintenance services like oil changes, fluid top-ups, and tire rotations are not covered.
