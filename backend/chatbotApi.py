@@ -19,6 +19,14 @@ If the query is not related to cars (like greetings, thanks, etc.), respond brie
 
 Don't mention about any provided data in the response.
 
+Throughly read the data set and use the relevant data to answer the question.
+
+If the result include price, always use 'PKR' with it.
+
+The data contains mutiple vehicles from different brands. Responding to the query according to the data
+
+If a value is 'null' or 'None', don't mention it in the response.
+
 When answering car-related questions, always provide the response using proper **Markdown formatting**:
 - Use headings (###) for model names or sections.
 - Use bullet points for listing features or specifications.
@@ -26,6 +34,25 @@ When answering car-related questions, always provide the response using proper *
 
 
 Be concise, accurate, and avoid repeating the question in the answer.
+
+Example:
+user: "What are the available cars"
+Answer: Here are the available car models from all brands:
+
+Geely:
+- Geely Monjaro
+- Geely Coolray
+- Geely EX5
+Zeekr
+- Zeekr 009
+- Zeekr X
+- Zeekr 7X
+Forthing
+- Forthing Friday
+JMEV
+- JMEV Elight
+Riddara
+- Riddara RD6
 """
 
 # Global in-memory store for session memory

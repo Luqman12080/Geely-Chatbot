@@ -1,5 +1,224 @@
 {
+    "009": {
+        "brand": "Zeekr",
+        "name": "Zeekr 009",
+        "category": "Luxury Electric MPV",
+        "powertrain": {
+            "type": "Electric",
+            "motors": "Dual motor AWD",
+            "power_hp": null,
+            "torque_nm": null
+        },
+        "battery": {
+            "capacity_kwh": null,
+            "range_km_estimated": null
+        },
+        "performance": {
+            "acceleration_0_100_kmph_s": null,
+            "top_speed_kmph": null
+        },
+        "features": [
+            "Luxury MPV seating",
+            "Premium interior",
+            "AI cockpit tech",
+            "Adaptive cruise",
+            "Panoramic displays"
+        ],
+        "variants": [
+            {
+                "name": "Luxury (7-seater)",
+                "price_pkr": 45999000
+            },
+            {
+                "name": "Ultra-Luxury (6-seater)",
+                "price_pkr": 48999000
+            }
+        ]
+    },
+    "X": {
+        "brand": "Zeekr",
+        "name": "Zeekr X",
+        "category": "Compact Electric SUV",
+        "powertrain": {
+            "type": "Electric",
+            "motors": null,
+            "power_hp": null,
+            "torque_nm": null
+        },
+        "battery": {
+            "capacity_kwh": null,
+            "range_km_estimated": null
+        },
+        "performance": {},
+        "features": [
+            "Compact SUV design",
+            "Tech-rich interior",
+            "ADAS features"
+        ],
+        "variants": [
+            {
+                "name": "Premium",
+                "price_pkr": 17990000
+            },
+            {
+                "name": "Flagship AWD",
+                "price_pkr": 18990000
+            }
+        ]
+    },
+    "7X": {
+        "brand": "Zeekr",
+        "name": "Zeekr 7X",
+        "full_name": "Zeekr 7X",
+        "category": "Electric SUV",
+        "powertrain": {
+            "type": "Electric",
+            "motors": null,
+            "power_hp": null,
+            "torque_nm": null
+        },
+        "battery": {
+            "capacity_kwh": null,
+            "range_km_estimated": null
+        },
+        "performance": {},
+        "features": [
+            "Mid-size SUV",
+            "Premium tech",
+            "ADAS & safety suite"
+        ],
+        "variants": [
+            {
+                "name": "Long Range",
+                "price_pkr": 24990000
+            },
+            {
+                "name": "Performance",
+                "price_pkr": 26990000
+            }
+        ]
+    },
+    "Forthing": {
+        "brand": "Forthing",
+        "name": "Forthing Friday",
+        "full_name": "Forthing Friday",
+        "category": "Crossover / Electric SUV",
+        "powertrain": {
+            "type": "Electric / REEV",
+            "motors": null,
+            "power_hp": null,
+            "torque_nm": null
+        },
+        "battery": {
+            "capacity_kwh": null,
+            "range_km_estimated": null
+        },
+        "performance": {},
+        "features": [
+            "Panoramic sunroof",
+            "360° camera",
+            "Level-2 ADAS"
+        ],
+        "variants": [
+            {
+                "name": "Luxury",
+                "price_pkr": 8999000
+            },
+            {
+                "name": "Exclusive",
+                "price_pkr": 10499000
+            },
+            {
+                "name": "REEV",
+                "price_pkr": 10999000
+            }
+        ]
+    },
+    "JMEV": {
+        "brand": "JMEV",
+        "name": "JMEV Elight",
+        "full_name": "JMEV Elight",
+        "category": "Electric Sedan",
+        "powertrain": {
+            "type": "Electric",
+            "motor_power_kw": 165,
+            "motor_power_hp": 221
+        },
+        "battery": {
+            "capacity_kwh": 56.3,
+            "range_km_estimated": 500
+        },
+        "performance": {},
+        "features": [
+            "14.6-inch multimedia touchscreen",
+            "360-degree camera",
+            "Blind-spot monitoring",
+            "Multiple airbags",
+            "Drive modes (Eco, Normal, Sport)",
+            "Supports AC & DC charging"
+        ],
+        "variants": [
+            {
+                "name": "Comfort",
+                "price_pkr": 8499999
+            },
+            {
+                "name": "Premium",
+                "price_pkr": 9999999
+            }
+        ]
+    },
+    "Riddara": {
+        "brand": "Riddara",
+        "model": "RD6",
+        "full_name": "Riddara RD6",
+        "category": "Electric Pickup Truck",
+        "powertrain": {
+            "type": "Electric",
+            "drivetrain_options": [
+                "2WD",
+                "4WD"
+            ],
+            "motor_power_kw": 280,
+            "motor_torque_nm": 485
+        },
+        "battery": {
+            "capacity_kwh_options": [
+                73,
+                86
+            ],
+            "range_km_estimated": [
+                424,
+                455
+            ]
+        },
+        "performance": {
+            "top_speed_kmph": 160
+        },
+        "features": [
+            "High ground clearance",
+            "Towing capacity ~2500 kg",
+            "Payload ~910 kg",
+            "Advanced safety systems",
+            "Reversing camera & sensors"
+        ],
+        "variants": [
+            {
+                "name": "Econ (4WD)",
+                "price_pkr": 13299000
+            },
+            {
+                "name": "Air (2WD)",
+                "price_pkr": 14699000
+            },
+            {
+                "name": "Pro (4WD)",
+                "price_pkr": 16999000
+            }
+        ]
+    },
     "Monjaro": {
+        "brand": "Geely",
         "name": "Geely Monjaro",
         "aka": [
             "Xingyue L"
@@ -171,6 +390,7 @@
         ]
     },
     "Coolray": {
+        "brand": "Geely",
         "name": "Geely Coolray",
         "aka": [
             "Geely Binyue"
@@ -279,6 +499,7 @@
         ]
     },
     "EX5": {
+        "brand": "Geely",
         "name": "Geely EX5",
         "aka": [
             "Galaxy EX5"
