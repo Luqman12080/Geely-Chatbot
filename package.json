@@ -1,7 +1,7 @@
 {
   "name": "geely-frontend",
   "version": "0.1.0",
-  "homepage": "/geely",
+  "homepage": "/csm",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

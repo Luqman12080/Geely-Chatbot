@@ -1,7 +1,7 @@
 import './App.css';
 import ChatBotWidget from "./components/ChatBotWidget"
 import "./components/styles/chatbot.css"
-import poster from "./assests/geely-poster.png"
+import poster from "./assets/CSM-landingPage.png"
 
 function App() {
   return (
