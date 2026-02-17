@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, Send } from 'lucide-react';
 import Markdown from 'react-markdown'
 
@@ -10,6 +10,20 @@ function ChatBotWidget() {
         }
     ]);
     const [inputUser, setInputUser] = useState('');
+
+    // Add this ref
+    const messagesEndRef = useRef(null);
+
+    // Add this function
+    const scrollToBottom = () => {
+        messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    };
+
+    // Add this useEffect
+    useEffect(() => {
+        scrollToBottom();
+    }, [messages]);
+
 
     const handleSend = async (e) => {
         e.preventDefault();
@@ -79,7 +93,7 @@ function ChatBotWidget() {
                                 <div className={`${message.isBot ? 'botDate' : 'userDate'}`} >
                                     {message.date.toLocaleTimeString()}
                                 </div>
-
+                                <div ref={messagesEndRef} />
                             </div>
                         ))}
                     </div>
