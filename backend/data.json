@@ -1,641 +1,598 @@
 {
-    "009": {
-        "brand": "Zeekr",
-        "name": "Zeekr 009",
-        "category": "Luxury Electric MPV",
-        "powertrain": {
-            "type": "Electric",
-            "motors": "Dual motor AWD",
-            "power_hp": null,
-            "torque_nm": null
-        },
-        "battery": {
-            "capacity_kwh": null,
-            "range_km_estimated": null
-        },
-        "performance": {
-            "acceleration_0_100_kmph_s": null,
-            "top_speed_kmph": null
-        },
-        "features": [
-            "Luxury MPV seating",
-            "Premium interior",
-            "AI cockpit tech",
-            "Adaptive cruise",
-            "Panoramic displays"
-        ],
-        "variants": [
-            {
-                "name": "Luxury (7-seater)",
-                "price_pkr": 45999000
-            },
-            {
-                "name": "Ultra-Luxury (6-seater)",
-                "price_pkr": 48999000
-            }
-        ]
-    },
-    "X": {
-        "brand": "Zeekr",
-        "name": "Zeekr X",
-        "category": "Compact Electric SUV",
-        "powertrain": {
-            "type": "Electric",
-            "motors": null,
-            "power_hp": null,
-            "torque_nm": null
-        },
-        "battery": {
-            "capacity_kwh": null,
-            "range_km_estimated": null
-        },
-        "performance": {},
-        "features": [
-            "Compact SUV design",
-            "Tech-rich interior",
-            "ADAS features"
-        ],
-        "variants": [
-            {
-                "name": "Premium",
-                "price_pkr": 17990000
-            },
-            {
-                "name": "Flagship AWD",
-                "price_pkr": 18990000
-            }
-        ]
-    },
-    "7X": {
-        "brand": "Zeekr",
-        "name": "Zeekr 7X",
-        "full_name": "Zeekr 7X",
-        "category": "Electric SUV",
-        "powertrain": {
-            "type": "Electric",
-            "motors": null,
-            "power_hp": null,
-            "torque_nm": null
-        },
-        "battery": {
-            "capacity_kwh": null,
-            "range_km_estimated": null
-        },
-        "performance": {},
-        "features": [
-            "Mid-size SUV",
-            "Premium tech",
-            "ADAS & safety suite"
-        ],
-        "variants": [
-            {
-                "name": "Long Range",
-                "price_pkr": 24990000
-            },
-            {
-                "name": "Performance",
-                "price_pkr": 26990000
-            }
-        ]
-    },
-    "Forthing": {
-        "brand": "Forthing",
-        "name": "Forthing Friday",
-        "full_name": "Forthing Friday",
-        "category": "Crossover / Electric SUV",
-        "powertrain": {
-            "type": "Electric / REEV",
-            "motors": null,
-            "power_hp": null,
-            "torque_nm": null
-        },
-        "battery": {
-            "capacity_kwh": null,
-            "range_km_estimated": null
-        },
-        "performance": {},
-        "features": [
-            "Panoramic sunroof",
-            "360° camera",
-            "Level-2 ADAS"
-        ],
-        "variants": [
-            {
-                "name": "Luxury",
-                "price_pkr": 8999000
-            },
-            {
-                "name": "Exclusive",
-                "price_pkr": 10499000
-            },
-            {
-                "name": "REEV",
-                "price_pkr": 10999000
-            }
-        ]
-    },
-    "JMEV": {
-        "brand": "JMEV",
-        "name": "JMEV Elight",
-        "full_name": "JMEV Elight",
-        "category": "Electric Sedan",
-        "powertrain": {
-            "type": "Electric",
-            "motor_power_kw": 165,
-            "motor_power_hp": 221
-        },
-        "battery": {
-            "capacity_kwh": 56.3,
-            "range_km_estimated": 500
-        },
-        "performance": {},
-        "features": [
-            "14.6-inch multimedia touchscreen",
-            "360-degree camera",
-            "Blind-spot monitoring",
-            "Multiple airbags",
-            "Drive modes (Eco, Normal, Sport)",
-            "Supports AC & DC charging"
-        ],
-        "variants": [
-            {
-                "name": "Comfort",
-                "price_pkr": 8499999
-            },
-            {
-                "name": "Premium",
-                "price_pkr": 9999999
-            }
-        ]
-    },
-    "Riddara": {
-        "brand": "Riddara",
-        "model": "RD6",
-        "full_name": "Riddara RD6",
-        "category": "Electric Pickup Truck",
-        "powertrain": {
-            "type": "Electric",
-            "drivetrain_options": [
+    "Riddara_RD6": {
+        "brand": "Geely (Riddara)",
+        "name": "Riddara RD6",
+        "platform": "Multiplex Attached Platform",
+        "body": {
+            "type": "Electric Pickup",
+            "doors": 4,
+            "seating_capacity": 5,
+            "drivetrain": [
                 "2WD",
                 "4WD"
-            ],
-            "motor_power_kw": 280,
-            "motor_torque_nm": 485
+            ]
+        },
+        "powertrain": {
+            "motor": "Permanent Magnet Motor",
+            "power_kw": {
+                "2wd": 200,
+                "4wd": 280
+            },
+            "torque_nm": {
+                "2wd": 385,
+                "4wd": 485
+            },
+            "acceleration_0_100_kph": "5.7 s (4WD)",
+            "top_speed_kph": 185
         },
         "battery": {
-            "capacity_kwh_options": [
+            "type": "Ternary Lithium / LFP",
+            "capacity_kwh": [
                 73,
                 86
             ],
-            "range_km_estimated": [
-                424,
-                455
-            ]
-        },
-        "performance": {
-            "top_speed_kmph": 160
-        },
-        "features": [
-            "High ground clearance",
-            "Towing capacity ~2500 kg",
-            "Payload ~910 kg",
-            "Advanced safety systems",
-            "Reversing camera & sensors"
-        ],
-        "variants": [
-            {
-                "name": "Econ (4WD)",
-                "price_pkr": 13299000
-            },
-            {
-                "name": "Air (2WD)",
-                "price_pkr": 14699000
-            },
-            {
-                "name": "Pro (4WD)",
-                "price_pkr": 16999000
+            "range_km": {
+                "nedc": "424–461"
             }
-        ]
-    },
-    "Monjaro": {
-        "brand": "Geely",
-        "name": "Geely Monjaro",
-        "aka": [
-            "Xingyue L"
-        ],
-        "platform": "CMA (Compact Modular Architecture)",
-        "body": {
-            "type": "SUV",
-            "doors": 5,
-            "seating_capacity": 5,
-            "drivetrain": [
-                "FWD",
-                "AWD"
-            ]
-        },
-        "powertrain": {
-            "engine": {
-                "type": "2.0L turbocharged inline-4",
-                "power_hp": 238,
-                "power_kw": 175,
-                "torque_nm": 350
-            },
-            "transmission": "8-speed Aisin automatic",
-            "acceleration_0_100_kph": "7.7 s",
-            "top_speed_kph": 220
         },
         "dimensions": {
-            "length_mm": 4770,
-            "width_mm": 1895,
-            "height_mm": 1689,
-            "wheelbase_mm": 2845,
-            "ground_clearance_mm": 185,
-            "curb_weight_kg": {
-                "min": 1810,
-                "max": 2265
-            },
-            "turning_radius_m": 6
-        },
-        "fuel": {
-            "tank_capacity_l": 62,
-            "economy_combined_kmpl": 13.2,
-            "economy_l_per_100km": 7.5
-        },
-        "suspension": {
-            "front": "MacPherson strut",
-            "rear": "Multi-link"
-        },
-        "brakes": {
-            "front": "Ventilated discs",
-            "rear": "Solid discs"
-        },
-        "steering": "Electric power-assisted rack & pinion",
-        "wheels_tires": {
-            "wheel_options": [
-                "19 inch",
-                "20 inch"
-            ],
-            "tire_sizes": {
-                "base": "235/50 R19",
-                "premium": "245/45 R20"
-            }
+            "length_mm": 5260,
+            "width_mm": 1900,
+            "height_mm": 1880,
+            "ground_clearance_mm": 190
         },
         "cargo": {
-            "boot_capacity_l": {
-                "min": 550,
-                "max": 562
-            }
+            "loading_capacity_kg": 1030,
+            "towing_capacity_kg": 3000,
+            "front_trunk_l": 70
         },
+        "suspension": {
+            "front": "MacPherson independent",
+            "rear": "Multi-link independent"
+        },
+        "brakes": {
+            "type": "Four-wheel disc"
+        },
+        "steering": "EPS",
         "interior": {
             "screens": {
-                "instrument_cluster": "12.3 inch",
-                "infotainment": "12.3 inch",
-                "passenger": "12.3 inch",
-                "ar_hud": "25.6 inch (available in GF+ trim)"
-            },
-            "seats": {
-                "driver": "8-way power adjustable",
-                "passenger": "4-way power adjustable",
-                "features": [
-                    "ventilation",
-                    "suede/leather upholstery"
-                ]
-            },
-            "climate_control": {
-                "zones": [
-                    "dual-zone",
-                    "tri-zone (GF+ trim)"
-                ],
-                "air_filter": "CN95"
+                "instrument_cluster": "10.2 inch",
+                "infotainment": "14.6 inch"
             },
             "features": [
-                "Panoramic sunroof",
                 "Wireless charging",
-                "Power tailgate",
-                "Rain-sensing wipers",
-                "Keyless entry and push-start",
-                "USB-C ports"
+                "Voice control",
+                "WiFi",
+                "Ventilated seats",
+                "Synthetic leather seats"
             ],
             "audio": {
-                "speakers": {
-                    "standard": 8,
-                    "premium": 10,
-                    "brand": "Bose"
-                }
+                "speakers": [
+                    4,
+                    6,
+                    8
+                ]
             }
         },
         "safety": {
             "airbags": 6,
             "adas": [
-                "ABS",
-                "EBD",
-                "ESC",
-                "Traction Control",
-                "Hill Start Assist",
-                "Hill Descent Control",
-                "Auto Hold",
-                "Electronic Parking Brake",
-                "Adaptive Cruise Control",
-                "Lane Keep Assist",
-                "Blind Spot Detection",
-                "Rear Collision Warning",
-                "Rear Cross Traffic Alert",
-                "Highway Assist",
-                "Automated Parking Assist"
+                "ACC",
+                "AEB",
+                "FCW",
+                "LKA",
+                "ELKA",
+                "LDW",
+                "LCA",
+                "BSD",
+                "RCTA",
+                "RCTB",
+                "RCW"
             ],
             "camera_system": "540°",
-            "parking_sensors": "Front and Rear",
             "tpms": true
         },
-        "trims": [
-            {
-                "name": "GK Comfort",
-                "drive": "AWD",
-                "wheels": "19 inch",
-                "speakers": 8,
-                "ar_hud": false,
-                "climate": "Dual-zone",
-                "ventilated_seats": false
-            },
-            {
-                "name": "GF Premium",
-                "drive": "AWD",
-                "wheels": "19 inch",
-                "speakers": 8,
-                "ar_hud": false,
-                "climate": "Dual-zone",
-                "ventilated_seats": false
-            },
-            {
-                "name": "GF+ Ultimate",
-                "drive": "AWD",
-                "wheels": "20 inch",
-                "speakers": 10,
-                "ar_hud": true,
-                "climate": "Tri-zone",
-                "ventilated_seats": true
-            }
-        ],
-        "connectivity": {
-            "apple_carplay": "Wired (2025+)",
-            "android_auto": "Not widely supported"
+        "charging": {
+            "dc_fast": "110 kW (~30 min)",
+            "ac": "6.6 kW"
         },
-        "Price": "11,999,999 to 13,999,000 PKR",
-        "Colors": [
-            "Obsidian Black",
-            "Snow White Pearl",
-            "Graphite Grey",
-            "Deep Ocean Blue",
-            "Champagne Gold"
-        ]
-    },
-    "Coolray": {
-        "brand": "Geely",
-        "name": "Geely Coolray",
-        "aka": [
-            "Geely Binyue"
-        ],
-        "body_style": "5-door subcompact SUV",
-        "platform": "Geely BMA",
-        "drivetrain": "FWD",
-        "engine": {
-            "type": "1.5L turbocharged 4-cylinder",
-            "displacement_cc": 1477,
-            "power_hp": 172,
-            "power_kw": 128,
-            "torque_nm": 290
-        },
-        "transmission": "7-speed wet dual-clutch (7DCT)",
-        "performance": {
-            "0_100_kmph_s": 7.6,
-            "top_speed_kmph": 195,
-            "combined_consumption_l_per_100km": 5.8
-        },
-        "dimensions_mm": {
-            "length": 4380,
-            "width": 1810,
-            "height": 1615,
-            "wheelbase": 2600,
-            "ground_clearance": 180
-        },
-        "weight": {
-            "kerb_min_kg": 1340,
-            "kerb_max_kg": 1400
-        },
-        "fuel": {
-            "tank_capacity_l": 45,
-            "city_kmpl": 11,
-            "highway_kmpl": 14
-        },
-        "boot_capacity_l": 330,
         "wheels_tires": {
-            "wheel_size_in": [
-                17,
-                18
+            "wheel_options": [
+                "17 inch",
+                "18 inch"
             ],
-            "tire_size": [
-                "215/60 R17",
-                "215/55 R18"
+            "tire_sizes": [
+                "235/65R17",
+                "235/60R18"
             ]
         },
-        "steering": {
-            "type": "Electric power-assisted rack & pinion",
-            "turning_radius_m": 5.3
+        "prices": {
+            "Riddara RD6 Econ": "PKR 13,299,000",
+            "Riddara RD6 Air": "PKR 14,699,000",
+            "Riddara RD6 Pro": "PKR 16,999,000"
+        }
+    },
+    "JMEV_Elight": {
+        "brand": "JMEV",
+        "name": "Elight",
+        "body": {
+            "type": "Electric Sedan",
+            "doors": 4,
+            "seating_capacity": 5,
+            "drivetrain": [
+                "FWD"
+            ]
+        },
+        "powertrain": {
+            "motor": "Permanent Magnet Synchronous Motor",
+            "power_kw": 165,
+            "torque_nm": 210,
+            "acceleration_0_100_kph": "~8.0 s",
+            "top_speed_kph": 150
+        },
+        "battery": {
+            "type": "Lithium Iron Phosphate",
+            "capacity_kwh": 56.3,
+            "range_km": "500km"
+        },
+        "dimensions": {
+            "length_mm": 4675,
+            "width_mm": 1835,
+            "height_mm": 1480,
+            "wheelbase_mm": 2750,
+            "ground_clearance_mm": 168,
+            "boot_capacity_l": 410
+        },
+        "suspension": {
+            "front": "MacPherson independent",
+            "rear": "Multi-link independent"
+        },
+        "brakes": {
+            "front": "Ventilated disc",
+            "rear": "Solid disc"
+        },
+        "steering": "EPS (Tilt & telescopic)",
+        "interior": {
+            "screens": {
+                "instrument_cluster": "7 inch",
+                "infotainment": "12.4 inch"
+            },
+            "features": [
+                "Wireless charging",
+                "Leather seats",
+                "Dual screen cockpit",
+                "Keyless start"
+            ],
+            "audio": {
+                "speakers": [
+                    2,
+                    6
+                ]
+            }
+        },
+        "safety": {
+            "airbags": 2,
+            "adas": [
+                "ABS",
+                "ESC",
+                "EBA",
+                "HSA",
+                "HDA",
+                "TPMS",
+                "Blind Spot Monitoring",
+                "RCTA",
+                "Lane Change Assist"
+            ],
+            "camera_system": "360°"
+        },
+        "charging": {
+            "ac_home_wallbox": "7 kW",
+            "dc_fast": "30 min (30–80%)",
+            "ac_full_charge_hr": 10
+        },
+        "wheels_tires": {
+            "tire_size": "215/55 R17"
+        },
+        "prices": {
+            "JMEV Elight Comfort": "PKR 8,499,999",
+            "JMEV Elight Premium": "PKR 9,999,999"
+        }
+    },
+    "Forthing_Friday": {
+        "brand": "Forthing",
+        "name": "Forthing Friday REEV",
+        "body": {
+            "type": "SUV",
+            "doors": 5,
+            "seating_capacity": 5,
+            "drivetrain": [
+                "RWD"
+            ]
+        },
+        "powertrain": {
+            "motor": "Permanent Magnet Synchronous Motor",
+            "motor_power_kw": 120,
+            "motor_torque_nm": 240,
+            "generator_engine": "1.5L naturally aspirated",
+            "generator_power_kw": 75
+        },
+        "battery": {
+            "type": "Lithium Iron Phosphate",
+            "capacity_kwh": 31.94,
+            "electric_range_km": "220km",
+            "combined_range_km": "1150km"
+        },
+        "dimensions": {
+            "length_mm": 4600,
+            "width_mm": 1860,
+            "height_mm": 1680,
+            "wheelbase_mm": 2715
+        },
+        "suspension": {
+            "front": "MacPherson independent",
+            "rear": "Multi-link independent"
+        },
+        "brakes": {
+            "front": "Ventilated disc",
+            "rear": "Solid disc"
+        },
+        "steering": "Electric power steering",
+        "interior": {
+            "screens": {
+                "instrument_cluster": "8.8 inch",
+                "infotainment": "14.6 inch"
+            },
+            "features": [
+                "Dual-zone climate control",
+                "Wireless charging",
+                "Panoramic sunroof",
+                "Leather ventilated seats",
+                "Premium sound system"
+            ],
+            "audio": {
+                "speakers": 6
+            }
+        },
+        "safety": {
+            "airbags": 6,
+            "adas": [
+                "ACC",
+                "FCW",
+                "AEB",
+                "LKA",
+                "BSD",
+                "RCTA",
+                "LDW"
+            ],
+            "camera_system": "360°",
+            "tpms": true
+        },
+        "charging": {
+            "dc_fast": "30 min",
+            "ac_full_charge_hr": 7
+        },
+        "wheels_tires": {
+            "tire_size": "235/55 R19"
+        },
+        "prices": {
+            "Forthing Friday BEV Luxury": "PKR 8,999,000",
+            "Forthing Friday REEV Exclusive": "PKR 9,999,000",
+            "Forthing Friday BEV Exclusive": "PKR 10,499,000"
+        }
+    },
+    "Zeekr X": {
+        "brand": "Zeekr (Geely Group)",
+        "name": "Zeekr X",
+        "aka": [],
+        "platform": "SEA (Sustainable Experience Architecture)",
+        "body": {
+            "type": "Electric Compact SUV",
+            "doors": 5,
+            "seating_capacity": 5,
+            "drivetrain": [
+                "RWD",
+                "AWD"
+            ]
+        },
+        "powertrain": {
+            "engine": {
+                "type": "Dual / Single electric motor",
+                "power_hp": {
+                    "rwd": 269,
+                    "awd": 422
+                },
+                "power_kw": {
+                    "rwd": 200,
+                    "awd": 315
+                },
+                "torque_nm": 543
+            },
+            "transmission": "Single-speed automatic (EV)",
+            "acceleration_0_100_kph": {
+                "rwd": "5.6 s",
+                "awd": "3.8 s"
+            },
+            "top_speed_kph": 180
+        },
+        "dimensions": {
+            "length_mm": 4432,
+            "width_mm": 1836,
+            "height_mm": 1566,
+            "wheelbase_mm": 2750,
+            "ground_clearance_mm": null,
+            "curb_weight_kg": null,
+            "turning_radius_m": null
+        },
+        "fuel": {
+            "type": "Electric",
+            "battery_capacity_kwh": 66,
+            "range_km": {
+                "rwd": 440,
+                "awd": 420
+            }
         },
         "suspension": {
             "front": "MacPherson strut",
             "rear": "Multi-link"
         },
         "brakes": {
-            "front": "Ventilated disc",
-            "rear": "Solid disc"
+            "front": "Disc",
+            "rear": "Disc"
         },
-        "infotainment": {
-            "cluster_inch": 10.25,
-            "central_display_inch": 12.3,
-            "features": [
-                "Wireless charging",
-                "360° camera",
-                "Smart tailgate",
-                "EPB & Auto Hold",
-                "Blind Spot Detection"
+        "steering": "Electric power steering",
+        "wheels_tires": {
+            "wheel_options": [
+                "19 inch",
+                "20 inch"
             ]
+        },
+        "cargo": {
+            "boot_capacity_l": null
+        },
+        "interior": {
+            "screens": {
+                "infotainment": "14.6 inch",
+                "instrument_cluster": "Digital",
+                "ar_hud": "Available"
+            },
+            "seats": {
+                "material": "Leather",
+                "features": [
+                    "Heated front seats"
+                ]
+            },
+            "climate_control": {
+                "zones": [
+                    "Dual-zone"
+                ]
+            },
+            "features": [
+                "Android-based infotainment system",
+                "OTA updates",
+                "Voice assistant",
+                "Wireless connectivity"
+            ],
+            "audio": {}
         },
         "safety": {
-            "airbags": {
-                "front": 2,
-                "side": 2,
-                "curtain": 2
-            },
-            "driver_assistance_features": [
-                "ABS (Anti-lock Braking System)",
-                "EBD (Electronic Brakeforce Distribution)",
-                "ESC (Electronic Stability Control)",
-                "TCS (Traction Control System)",
-                "HBA (Hydraulic Brake Assist)",
-                "HHC (Hill Hold Control)",
-                "HDC (Hill Descent Control)",
-                "TPMS (Tire Pressure Monitoring System)",
-                "BAS (Brake Assist System)",
-                "Adaptive Cruise Control (ACC)",
-                "Autonomous Emergency Braking (AEB)",
-                "Lane Departure Warning (LDW)",
-                "Lane Keep Assist (LKA)",
-                "Blind Spot Detection (BSD)",
-                "Rear Cross Traffic Alert (RCTA)",
-                "Parking Assist",
-                "360-degree Panoramic Camera",
-                "Intelligent Cruise control"
+            "airbags": 7,
+            "adas": [
+                "ABS",
+                "AEB",
+                "Lane assist",
+                "Blind-spot detection",
+                "Traction control",
+                "Stability control",
+                "Adaptive cruise control",
+                "Automatic parking assist"
             ],
-            "crash_rating": "5-star (C-NCAP/ASEAN NCAP – region dependent)"
+            "camera_system": "360°",
+            "parking_sensors": "Front and Rear",
+            "tpms": true
         },
-        "Price": "6,799,999 to 7,199,000 PKR",
-        "Colors": [
-            "Flame Red",
-            "Aurora Silver",
-            "Sapphire Blue",
-            "Glacier White",
-            "Midnight Black"
-        ]
-    },
-    "EX5": {
-        "brand": "Geely",
-        "name": "Geely EX5",
-        "aka": [
-            "Galaxy EX5"
-        ],
-        "body_style": "5-door SUV",
-        "seating_capacity": 5,
-        "platform": "GEA (Global Intelligent Electric Architecture)",
-        "battery_options": [
+        "trims": [
             {
-                "capacity_kWh": 49.5,
-                "range_WLTP_km": 440
+                "name": "Premium",
+                "drive": "RWD",
+                "battery_kwh": 66,
+                "range_km": 440
             },
             {
-                "capacity_kWh": 60.22,
-                "range_WLTP_km": 430,
-                "range_NEDC_km": 495
+                "name": "Flagship AWD",
+                "drive": "AWD",
+                "battery_kwh": 66,
+                "range_km": 420
             }
         ],
-        "motor": {
-            "type": "Permanent Magnet Synchronous Motor",
-            "location": "Front",
-            "power_kW": 160,
-            "power_hp": 218,
-            "torque_Nm": 320
+        "connectivity": {
+            "apple_carplay": true,
+            "android_auto": true,
+            "ota_updates": true
         },
-        "performance": {
-            "acceleration_0_100_kmph_s": 6.9,
-            "top_speed_kmph": 175
+        "Price": {
+            "Zeekr X Premium": "PKR 17,990,000",
+            "Zeekr X Flagship AWD": "PKR 18,990,000"
         },
-        "charging": {
-            "dc_fast_kW": 100,
-            "dc_charge_time_30_80_percent_min": 20,
-            "ac_charge_kW": 11
-        },
-        "energy_consumption": {
-            "WLTP_kWh_per_100km": 15.8,
-            "NEDC_kWh_per_100km": 13.9
-        },
-        "dimensions_mm": {
-            "length": 4615,
-            "width": 1901,
-            "height": 1670,
-            "wheelbase": 2750,
-            "ground_clearance": 173
-        },
-        "weight_kg": {
-            "kerb": 1715,
-            "gross": 2142
-        },
-        "cargo_capacity_l": {
-            "min": 461,
-            "max": 1877
-        },
-        "wheels_tires": {
-            "wheel_sizes_in": [
-                18,
-                19,
-                20
-            ],
-            "tire_sizes": [
-                "225/55 R18",
-                "235/50 R19"
+        "Colors": []
+    },
+    "Zeekr_7X": {
+        "brand": "Zeekr",
+        "name": "Zeekr 7X",
+        "platform": "SEA (Sustainable Experience Architecture)",
+        "body": {
+            "type": "Electric SUV",
+            "doors": 5,
+            "seating_capacity": 5,
+            "drivetrain": [
+                "RWD",
+                "AWD"
             ]
         },
+        "powertrain": {
+            "motor": "Dual / Single electric motor",
+            "power_hp": {
+                "rwd": 422,
+                "awd": 637
+            },
+            "torque_nm": {
+                "awd": 710
+            },
+            "acceleration_0_100_kph": "3.8 s (Performance AWD)",
+            "top_speed_kph": 210
+        },
+        "battery": {
+            "type": [
+                "LFP",
+                "NMC"
+            ],
+            "capacity_kwh": [
+                75,
+                100
+            ],
+            "range_wltp_km": {
+                "standard": 480,
+                "long_range": 615,
+                "performance": 543
+            },
+            "architecture": "800V",
+            "ac_charging_kw": 22,
+            "dc_fast_charging_kw": 450,
+            "v2l_support": true
+        },
+        "dimensions": {
+            "length_mm": 4825,
+            "width_mm": 1930,
+            "height_mm": 1656,
+            "wheelbase_mm": 2925
+        },
         "suspension": {
-            "front": "McPherson strut",
+            "front": "Double wishbone",
             "rear": "Multi-link"
         },
         "brakes": {
-            "front": "Ventilated disc",
-            "rear": "Disc"
+            "front": "Ventilated discs",
+            "rear": "Ventilated discs"
         },
-        "steering": {
-            "type": "Electric rack & pinion",
-            "turning_circle_m": 10.8
-        },
-        "infotainment": {
-            "infotainment_screen_inch": 15.4,
-            "instrument_cluster_inch": 10.2,
-            "head_up_display_inch": 13.8,
-            "audio_speakers": 16,
+        "steering": "Electric power steering",
+        "interior": {
+            "screens": {
+                "instrument_cluster": "Digital cluster",
+                "infotainment": "Large central touchscreen",
+                "hud": "AR HUD (available)"
+            },
             "features": [
-                "Flyme Auto OS",
-                "Voice Assistant",
+                "Panoramic sunroof",
                 "Wireless charging",
-                "Ambient lighting",
-                "Massage front seats",
-                "Panoramic sunroof"
+                "Premium sound system",
+                "OTA updates",
+                "Powered seats",
+                "Ambient lighting"
             ]
         },
-        "safety_and_ADAS": {
-            "airbags": 7,
-            "driver_assistance": [
-                "ABS",
-                "EBD",
-                "ESC",
-                "TPMS",
+        "safety": {
+            "airbags": 6,
+            "adas": [
                 "Adaptive Cruise Control",
-                "AEB",
-                "Lane Keeping Assist",
-                "Blind Spot Monitor",
-                "360° Camera",
-                "Parking Sensors",
-                "Hill Descent Control",
-                "Rear cross traffic alert (rcta)",
-                "Lane change assist",
-                "Doors Open warning",
-                "Evasive manoeuvre assist"
+                "Lane Keep Assist",
+                "Blind Spot Monitoring",
+                "Automatic Emergency Braking",
+                "Parking Assist",
+                "360 camera"
+            ]
+        },
+        "Prices": {
+            "Zeekr 7X Long Range RWD": "PKR 24,990,000",
+            "Zeekr 7X Performance AWD": "PKR 26,990,000"
+        },
+        "Colors": []
+    },
+    "Zeekr_009": {
+        "brand": "Zeekr",
+        "name": "Zeekr 009",
+        "platform": "SEA (Sustainable Experience Architecture)",
+        "body": {
+            "type": "Luxury Electric MPV",
+            "doors": 5,
+            "seating_capacity": 6,
+            "drivetrain": [
+                "AWD"
+            ]
+        },
+        "powertrain": {
+            "motor": "Dual electric motor",
+            "power_hp": 536,
+            "torque_nm": 686,
+            "acceleration_0_100_kph": "4.5 s",
+            "top_speed_kph": 190
+        },
+        "battery": {
+            "type": "NMC lithium-ion",
+            "capacity_kwh": [
+                116,
+                140
             ],
-            "crash_ratings": {
-                "Euro_NCAP": 5,
-                "ANCAP": 5,
-                "ASEAN_NCAP": 5
-            }
+            "range_cltc_km": {
+                "116_kwh": 702,
+                "140_kwh": 822
+            },
+            "architecture": "800V fast charging"
         },
-        "certifications_and_awards": [
-            "Red Dot Design Award",
-            "IDA Gold Award",
-            "Muse Design Platinum"
-        ],
-        "additional_features": [
-            "V2V & V2L support",
-            "1000W Flyme sound system",
-            "Level-2 ADAS"
-        ],
-        "warranty": {
-            "vehicle_years": 7,
-            "battery_years": 8
+        "dimensions": {
+            "length_mm": 5209,
+            "width_mm": 2024,
+            "height_mm": 1856,
+            "wheelbase_mm": 3205
         },
-        "Price": "8,899,999 to 9,499,000 PKR",
-        "Colors": [
-            "Arctic White",
-            "Electric Blue",
-            "Moonlight Grey",
-            "Jet Black",
-            "Lime Green (limited edition)"
-        ]
+        "suspension": {
+            "front": "Double wishbone",
+            "rear": "Multi-link air suspension"
+        },
+        "brakes": {
+            "front": "Ventilated discs",
+            "rear": "Ventilated discs"
+        },
+        "steering": "Electric power steering",
+        "cargo": {
+            "boot_capacity_l": "Large MPV cargo space"
+        },
+        "interior": {
+            "screens": {
+                "instrument_cluster": "Digital cluster",
+                "infotainment": "15.4 inch touchscreen",
+                "rear_entertainment": "15.6 inch roof-mounted display"
+            },
+            "seats": {
+                "layout": "Executive 6-seat",
+                "features": [
+                    "Massage seats",
+                    "Ventilated seats",
+                    "Power reclining seats",
+                    "Luxury leather upholstery"
+                ]
+            },
+            "features": [
+                "Panoramic glass roof",
+                "Premium Yamaha sound system",
+                "Ambient lighting",
+                "Tri-zone climate control",
+                "Electric sliding doors"
+            ]
+        },
+        "safety": {
+            "airbags": 6,
+            "adas": [
+                "Adaptive Cruise Control",
+                "Lane Keep Assist",
+                "Blind Spot Detection",
+                "Collision Warning",
+                "Auto Parking",
+                "360 camera"
+            ]
+        },
+        "Price": {
+            "Zeekr 009 Luxury": "PKR 45,999,000",
+            "Zeekr 009 Ultra-Luxury": "PKR 48,999,000"
+        },
+        "Colors": []
     }
 }
