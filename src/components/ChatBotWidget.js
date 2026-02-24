@@ -6,7 +6,7 @@ function ChatBotWidget() {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
         {
-            text: `Hello, I am a virtual assistant. I can help you find the right information and answer general questions about the available car models offered by CSM Motors. What would you like to know?`, isBot: true, date: new Date()
+            text: `Hello, I am a digital concierge. I can help you find the right information and answer general questions about the available car models offered by CSM Motors. What would you like to know?`, isBot: true, date: new Date()
         }
     ]);
     const [inputUser, setInputUser] = useState('');
@@ -34,7 +34,7 @@ function ChatBotWidget() {
         setInputUser('');
         let result = null
         try {
-            const response = await fetch("https://api.cinergiedigital.com/chat", {
+            const response = await fetch("https://demos.cinergiedigital.com/chat", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -73,7 +73,7 @@ function ChatBotWidget() {
             ) : (
                 <div className="chat-window">
                     <div className="chat-header">
-                        <h3>CSM Virtual Assistant</h3>
+                        <h3>CSM Digital Concierge</h3>
                         <button
                             className="close-button"
                             onClick={() => setIsOpen(false)}
