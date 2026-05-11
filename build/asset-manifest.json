@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/csm/static/css/main.32ab122a.css",
-    "main.js": "/csm/static/js/main.6e1d8722.js",
-    "static/js/453.7d17d8be.chunk.js": "/csm/static/js/453.7d17d8be.chunk.js",
-    "static/media/CSM-landingPage.png": "/csm/static/media/CSM-landingPage.f6610ffc37e9663c44a3.png",
-    "index.html": "/csm/index.html",
-    "main.32ab122a.css.map": "/csm/static/css/main.32ab122a.css.map",
-    "main.6e1d8722.js.map": "/csm/static/js/main.6e1d8722.js.map",
-    "453.7d17d8be.chunk.js.map": "/csm/static/js/453.7d17d8be.chunk.js.map"
+    "main.css": "/cinergie-motors/static/css/main.a0d9da0c.css",
+    "main.js": "/cinergie-motors/static/js/main.1a131a3c.js",
+    "static/js/453.7d17d8be.chunk.js": "/cinergie-motors/static/js/453.7d17d8be.chunk.js",
+    "static/media/Porsche.jpg": "/cinergie-motors/static/media/Porsche.f710b3c783de23af89fb.jpg",
+    "static/media/BMW.jpg": "/cinergie-motors/static/media/BMW.7b7cd4288d713b5147ba.jpg",
+    "index.html": "/cinergie-motors/index.html",
+    "main.a0d9da0c.css.map": "/cinergie-motors/static/css/main.a0d9da0c.css.map",
+    "main.1a131a3c.js.map": "/cinergie-motors/static/js/main.1a131a3c.js.map",
+    "453.7d17d8be.chunk.js.map": "/cinergie-motors/static/js/453.7d17d8be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32ab122a.css",
-    "static/js/main.6e1d8722.js"
+    "static/css/main.a0d9da0c.css",
+    "static/js/main.1a131a3c.js"
   ]
 }

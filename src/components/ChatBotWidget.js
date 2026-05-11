@@ -6,7 +6,7 @@ function ChatBotWidget() {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
         {
-            text: `Hello, I am a digital concierge. I can help you find the right information and answer general questions about the available car models offered by CSM Motors. What would you like to know?`, isBot: true, date: new Date()
+            text: `Hello, I am a digital concierge. I can help you find the right information and answer general questions about the available car models offered by Cinergie Motors. What would you like to know?`, isBot: true, date: new Date()
         }
     ]);
     const [inputUser, setInputUser] = useState('');
@@ -73,7 +73,7 @@ function ChatBotWidget() {
             ) : (
                 <div className="chat-window">
                     <div className="chat-header">
-                        <h3>CSM Digital Concierge</h3>
+                        <h3>Cinergie Motors Digital Concierge</h3>
                         <button
                             className="close-button"
                             onClick={() => setIsOpen(false)}
