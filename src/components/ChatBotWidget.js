@@ -3,7 +3,7 @@ import { MessageCircle, Send } from 'lucide-react';
 import Markdown from 'react-markdown'
 
 function ChatBotWidget() {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
     const [messages, setMessages] = useState([
         {
             text: `Hello, I am a digital concierge. I can help you find the right information and answer general questions about the available car models offered by Cinergie Motors. What would you like to know?`, isBot: true, date: new Date()
