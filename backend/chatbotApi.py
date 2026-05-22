@@ -102,8 +102,9 @@ app.add_middleware(
 )
 
 # code to load .txt files
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 file_path = [
-    './chatbot_responses.txt'
+    os.path.join(BASE_DIR,'./chatbot_responses.txt')
 ]
 
 def format_for_whatsapp(text):
