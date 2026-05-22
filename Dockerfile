@@ -22,4 +22,4 @@ COPY backend/ ./backend/
 EXPOSE 8000
 
 # Point uvicorn to the module using dot notation: folder.filename:app_instance
-CMD ["uvicorn", "backend.chatbotAPI:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "backend.chatbotApi:app", "--host", "0.0.0.0", "--port", "8000"]
