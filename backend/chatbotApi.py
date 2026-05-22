@@ -122,9 +122,10 @@ def load_documents(files):
         with open(file, 'r', encoding="utf-8-sig") as f:
             content = f.read()
             all_text.append(content) 
-    return "\n".join(all_text) 
+    return "\n".join(all_text)
 
-with open('data.json', 'r') as file:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(BASE_DIR, 'data.json'), 'r') as file:
     car_data = json.load(file)
 
 def extract_model_name(user_input, car_data):
