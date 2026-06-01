@@ -81,7 +81,7 @@ MAX_HISTORY = 10     # Keep last 10 exchanges
 
 # Initialize Mistral AI client
 # MISTRAL_API_KEY = "3fpWuiSPSYfbRTZamjen0z0tSZb0KL2E"
-MISTRAL_API_KEY = "VLBjJBXBk0S48TrAVf3gBs8EqcvoiP62"
+MISTRAL_API_KEY = "QFee1XxFiObdE7itAY8LpptVWM1Oay6A"
 WHATSAPP_API_TOKEN = os.getenv("WHATSAPP_API_TOKEN")
 WHATSAPP_PHONE_NUMBER_ID = os.getenv("WHATSAPP_PHONE_NUMBER_ID")
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")  # You create this
