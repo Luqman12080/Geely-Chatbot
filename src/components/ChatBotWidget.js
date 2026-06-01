@@ -34,7 +34,7 @@ function ChatBotWidget() {
         setInputUser('');
         let result = null
         try {
-            const response = await fetch("https://demos.cinergiedigital.com/chat", {
+            const response = await fetch("https://cm-api.cinergiedigital.com/chat", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
